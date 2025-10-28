@@ -24,7 +24,7 @@ public class CustomListTest {
     }
 
     public int countCitiesMock(){
-        return list.size();
+        return list.countCities();
     }
 
 
@@ -49,6 +49,6 @@ public class CustomListTest {
         assertEquals(i, 1);
     }
 
-
+  
 
 }
