@@ -67,7 +67,7 @@ public class CustomList extends ArrayAdapter<City> {
      * Otherwise if returns False if given city is not in list
      * @return
      * Return a boolean value
-     *
+     */
     public Boolean hasCity(City city){
         for ( City city1 : cities){
 
@@ -77,7 +77,7 @@ public class CustomList extends ArrayAdapter<City> {
         }
         return Boolean.FALSE;
     }
-    */
+
 
 
 }
