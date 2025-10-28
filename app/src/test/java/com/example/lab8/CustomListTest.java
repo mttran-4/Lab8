@@ -23,7 +23,7 @@ public class CustomListTest {
     }
 
     public int countCitiesMock(){
-        return cities.size();
+        return list.size();
     }
 
 
