@@ -12,8 +12,8 @@ import java.util.ArrayList;
 
 public class CustomListTest {
 
-    //private CustomList list;
-    private ArrayList<City> list;
+    private CustomList list;
+    //private ArrayList<City> list;
     /**
      * create a mocklist for citylist
      * @return
@@ -45,7 +45,8 @@ public class CustomListTest {
     public void testReturnSize(){
         list = MockCityList();
         list.addCity(new City("Estevan", "SK"));
-        assertEquals(1, countCitiesMock());
+        int i = countCitiesMock();
+        assertEquals(i, 1);
     }
 
 
