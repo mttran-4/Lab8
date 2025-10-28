@@ -62,7 +62,7 @@ public class CustomListTest {
         list.addCity(new City("Estevan", "SK"));
         City city = list.getCities().get(0);
         list.delete(city);
-        assertEquals(0, cityList.getCities().size());
+        assertEquals(0, list.getCities().size());
     }
 
 
