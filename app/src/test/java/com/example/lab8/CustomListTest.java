@@ -12,7 +12,8 @@ import java.util.ArrayList;
 
 public class CustomListTest {
 
-    private CustomList list;
+    //private CustomList list;
+    private ArrayList<City> list;
     /**
      * create a mocklist for citylist
      * @return
