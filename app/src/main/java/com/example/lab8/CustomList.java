@@ -84,8 +84,8 @@ public class CustomList extends ArrayAdapter<City> {
      * @return
      * Return the sorted list
      */
-    public List<City> getCities() {
-        List<City> list = cities;
+    public ArrayList<City> getCities() {
+        ArrayList<City> list = cities;
         Collections.sort(list);
         return list;
     }
