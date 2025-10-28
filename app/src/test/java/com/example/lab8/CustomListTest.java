@@ -44,7 +44,7 @@ public class CustomListTest {
     public void testReturnSize(){
         list = MockCityList();
         list.addCity(new City("Estevan", "SK"));
-        assertEquals(1, list.countCitiesMock());
+        assertEquals(1, countCitiesMock());
     }
 
 
