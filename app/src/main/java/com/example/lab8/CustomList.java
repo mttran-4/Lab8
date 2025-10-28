@@ -62,7 +62,22 @@ public class CustomList extends ArrayAdapter<City> {
         cities.add(city);
     }
 
+    /**
+     * This returns True if a city is found in a list
+     * Otherwise if returns False if given city is not in list
+     * @return
+     * Return a boolean value
+     *
+    public Boolean hasCity(City city){
+        for ( City city1 : cities){
 
+            if (city.compareTo(city1) == 0 ){
+                return Boolean.TRUE;
+            }
+        }
+        return Boolean.FALSE;
+    }
+    */
 
 
 }
