@@ -35,4 +35,12 @@ public class CustomListTest {
         assertEquals(list.getCount(),listSize +1);
     }
 
+    @Test
+    public void testReturnSize(){
+        CityList cityList = mockCityList();
+        assertEquals(1, cityList.countCities());
+    }
+    
+
+
 }
