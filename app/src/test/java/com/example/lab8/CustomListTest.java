@@ -22,6 +22,11 @@ public class CustomListTest {
         return list;
     }
 
+    public int countCitiesMock(){
+        return cities.size();
+    }
+
+
     /**
      * get the size of the list
      * increase list by adding new city
@@ -37,10 +42,11 @@ public class CustomListTest {
 
     @Test
     public void testReturnSize(){
-        CityList cityList = mockCityList();
-        assertEquals(1, cityList.countCities());
+        list = MockCityList();
+        list.addCity(new City("Estevan", "SK"));
+        assertEquals(1, cityList.countCitiesMock());
     }
-    
+
 
 
 }
